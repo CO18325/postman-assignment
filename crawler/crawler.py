@@ -142,7 +142,7 @@ def main():
     category_list = scrap_categories()
 
     # INITIALIZE DATABASE
-    db = Database("database2.db")
+    db = Database("database1.db")
 
     # SAVE CATEGORIES IN DATABSE
     categories = db.save_categories(category_list)
