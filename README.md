@@ -7,6 +7,7 @@
 - [Project Statement](#problem-statement)
 - [About the Project](#about-the-project)
   - [Technical Stack](#technical-stack)
+- [Points Achieved](#points-achieved)
 - [Database Schema](#database-schema)
 - [Getting Started (Instructions)](#getting-started)
   - [Crawler](#crawler-program)
@@ -17,6 +18,7 @@
 
 <!-- Project Breakdown -->
 ## Problem Statement
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 On the landing page of the above repo, you can see some list of categories for e.g. Animals, Art & Design, Business etc.
@@ -31,6 +33,7 @@ Note: You just need to fetch and store a list of all API in the database and NOT
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 Based on the problem statement. Two modules are built:
@@ -45,7 +48,8 @@ Based on the problem statement. Two modules are built:
 
 
 
-## About The Project
+## Points Achieved
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 Following obectives were achieved<br>
@@ -66,6 +70,7 @@ With the logic for pagination and limited server, the program was able to crawl 
 <br>
 
 ## Database Schema
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 - Relation Database is used in this project. Two tables are formed, one for the categories and one for the products. 
@@ -86,10 +91,11 @@ prod_id                 | category      | apiName       | link
 INTEGER                 | INTEGER       | TEXT          | TEXT
 PRIMARY (AUTOINCREMENT) | NOT NULL      | NOT NULL      | NOT NULL
 
-This table will consist of all the APIs. The category in this the id from the category table. Thus, **category acts as a foreign key**. id is used against the catgory_name, as it saves memory and integer processing is more efficient the text processing. 
-
+This table will consist of all the APIs. The category in this the id from the category table. Thus, **category acts as a foreign key**. id is used against the catgory_name, as it saves memory and integer processing is more efficient the text processing. <br>
+<br>
 
 ## Getting Started
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 Follow the following steps to run the crawler. And visit the web portal link to view the flask app 
@@ -136,20 +142,17 @@ flask run
 <br>
 
 ## Further Improvements
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 - Further better developed Object Oriented Program. Current system cannot be considered completely under OOP.
 - Better Web UI Interface to view the stored database
 - More optimized technique to work around the server limitation and token regeneration
-- GUI Interface for Scrapper
-
-
+- GUI Interface for Scrapper<br>
 <br>
 
-
-
-
 ## OUTPUT IMAGES
+[BACK TO TOP](#table-of-contents)
 <hr>
 
 ### START OF THE CRAWLER
@@ -176,6 +179,7 @@ flask run
 <br>
 
 ## References
+[BACK](#table-of-contents)
 <hr>
 
 - https://documenter.getpostman.com/view/4796420/SzmZczsh?version=latest#intro
