@@ -12,6 +12,7 @@
   - [Crawler](#crawler-program)
   - [Flask App](#flask-web-portal)
 - [Further Improvements](#further-improvements)
+- [Output Snapshots](#output-images)
 - [References](#references)
 
 <!-- Project Breakdown -->
@@ -145,6 +146,35 @@ flask run
 
 <br>
 
+
+
+
+## OUTPUT IMAGES
+<hr>
+
+### START OF THE CRAWLER
+
+![GitHub Logo](/output_images/initialize_crawl.png)
+
+### TOKEN REGENERATION
+
+![GitHub Logo](/output_images/Token_Renewal.png)
+
+### END OF CRAWLER
+
+![GitHub Logo](/output_images/last_cat_res.png)
+
+
+### FLASK APP HOME PAGE
+
+![GitHub Logo](/output_images/flask-intro.png)
+
+### FLASK APP SINGLE CATEGORY RESULT
+
+![GitHub Logo](/output_images/single_category.png)
+
+<br>
+
 ## References
 <hr>
 
@@ -153,4 +183,5 @@ flask run
 - https://getbootstrap.com/docs/4.1/content/tables/#hoverable-rows
 - https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/
 - https://www.nylas.com/blog/use-python-requests-module-rest-apis/
+
 
