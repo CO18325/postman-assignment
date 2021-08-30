@@ -1,5 +1,5 @@
 ## Public APIs List Crawler - Assignment - Inderpreet Singh
-
+<hr>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -7,16 +7,17 @@
 - [Project Statement](#problem-statement)
 - [About the Project](#about-the-project)
   - [Technical Stack](#technical-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contribution](#contribute)
-- [Contact](#maintainer)
+- [Database Schema](#database-schema)
+- [Getting Started (Instructions)](#getting-started)
+  - [Crawler](#crawler-program)
+  - [Flask App](#flask-web-portal)
+- [Further Improvements](#further-improvements)
+- [References](#references)
 
 <!-- Project Breakdown -->
 ## Problem Statement
+<hr>
+
 On the landing page of the above repo, you can see some list of categories for e.g. Animals, Art & Design, Business etc.
 
 In the next section you can find some API details for each one of the categories for e.g. under Animals section we have 
@@ -29,6 +30,8 @@ Note: You just need to fetch and store a list of all API in the database and NOT
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+<hr>
+
 Based on the problem statement. Two modules are built:
 
 - A python program to scrap all the data and save it in a relational database.
@@ -42,6 +45,8 @@ Based on the problem statement. Two modules are built:
 
 
 ## About The Project
+<hr>
+
 Following obectives were achieved<br>
 - **Number of Categories Crawled: 45**
 - **Number of APIs Crawled: 525** 
@@ -55,8 +60,12 @@ The server api call was limited to 10 requests in a minute. Thus, we need to ens
 - **Crawled all API entries for all categories and stored it in a database** :<br>
 With the logic for pagination and limited server, the program was able to crawl over all the apis. Each api was further saved in SQL databse. SQLite is used for the interaction with python program. Schema of database is defined in detail in further section.**No data of the api was stored in the Database as mentioned in the assigment**
 
+- Optimal Object Oriented Program Structure Not Achieved
 
-## Databse Schema
+<br>
+
+## Database Schema
+<hr>
 
 - Relation Database is used in this project. Two tables are formed, one for the categories and one for the products. 
 - Coded Schema could be found in the file  **schema.sql**.
@@ -80,9 +89,11 @@ This table will consist of all the APIs. The category in this the id from the ca
 
 
 ## Getting Started
+<hr>
 
 Follow the following steps to run the crawler. And visit the web portal link to view the flask app 
-### Crawled Program
+### Crawler Program
+All the relevant data for the crawler program is in the crawler directory
 
 
 - npm
@@ -105,34 +116,33 @@ git clone https://github.com/github_username/repo.git
 ```sh
 npm install
 ```
+<br>
+
 ### Flask Web Portal
 
 Please review the website deployed on Heroku:<br>
 **https://postmantestinderpreet.herokuapp.com/**<br>
 This flask app displays all the APIs from various categories in a web portal. 
 
-
-
-
-<!-- USAGE EXAMPLES -->
+<br>
 
 ## Further Improvements
+<hr>
+
 - Further better developed Object Oriented Program. Current system cannot be considered completely under OOP.
 - Better Web UI Interface to view the stored database
 - More optimized technique to work around the server limitation and token regeneration
 - GUI Interface for Scrapper
 
 
+<br>
 
 ## References
+<hr>
+
 - https://documenter.getpostman.com/view/4796420/SzmZczsh?version=latest#intro
 - https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
 - https://getbootstrap.com/docs/4.1/content/tables/#hoverable-rows
 - https://nordicapis.com/everything-you-need-to-know-about-api-rate-limiting/
 - https://www.nylas.com/blog/use-python-requests-module-rest-apis/
 
-
-
-
-## Deployment
-<a href="https://imabp.github.io/WebTerminal"><img src="https://img.shields.io/">
