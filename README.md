@@ -154,24 +154,24 @@ flask run
 
 ### START OF THE CRAWLER
 
-![GitHub Logo](/output_images/initialize_crawl.png)
+![GitHub Logo](/output_images/initialize_crawl.PNG)
 
 ### TOKEN REGENERATION
 
-![GitHub Logo](/output_images/Token_Renewal.png)
+![GitHub Logo](/output_images/Token_Renewal.PNG)
 
 ### END OF CRAWLER
 
-![GitHub Logo](/output_images/last_cat_res.png)
+![GitHub Logo](/output_images/last_cat_res.PNG)
 
 
 ### FLASK APP HOME PAGE
 
-![GitHub Logo](/output_images/flask-intro.png)
+![GitHub Logo](/output_images/flask-intro.PNG)
 
 ### FLASK APP SINGLE CATEGORY RESULT
 
-![GitHub Logo](/output_images/single_category.png)
+![GitHub Logo](output_images/single_category.PNG)
 
 <br>
 
