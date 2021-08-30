@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} PUBLIC API CRAWLER - POSTMAN INTERNSHIP{% endblock %}</h1>
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">CATEGORY ID</th>
+            <th scope="col">CATEGORY NAME</th>
+          </tr>
+        </thead>
+        <tbody>
+    {% for category in categories %}
+        <tr>
+            <th scope="row">{{ category['id'] }}</th>
+            <td>
+                <a href="{{ url_for('cat', cat_id=category['id']) }}">
+                    {{ category['category_name'] }}
+                </a>
+            </td>
+        </tr>
+    {% endfor %}
+
+    </tbody>
+    </table>
+{% endblock %}

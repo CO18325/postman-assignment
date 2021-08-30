@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>{% block title %} {{ category['category_name'] }} {% endblock %}</h2>
+    <!-- <span class="badge badge-primary">{{ category['id'] }}</span> -->
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">API ID</th>
+            <th scope="col">API Name</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+
+    {% for api in apis %}
+        <tr>
+            <th scope="row">{{ api['prod_id'] }}</th>
+            <td>{{ api['apiName'] }}</td>
+            <td><a href="{{ api['link'] }}">{{ api['link'] }}</a></td>
+        </tr>
+
+
+
+    {% endfor %}
+    </tbody>
+    </table>
+{% endblock %}
