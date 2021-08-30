@@ -92,37 +92,45 @@ This table will consist of all the APIs. The category in this the id from the ca
 <hr>
 
 Follow the following steps to run the crawler. And visit the web portal link to view the flask app 
+
+```
+Pre-requiste : Python 3 should be installed on your Computer
+```
+<br>
+
 ### Crawler Program
 All the relevant data for the crawler program is in the crawler directory
 
 
-- npm
 
-```sh
-npm install npm@latest -g
 ```
+git clone https://github.com/CO18325/postman-assignment.git
+pip install -r requirements.txt
+python crawler/crawler.py
 
-### Installation
-
-
-1. Clone the repo
-
-```sh
-git clone https://github.com/github_username/repo.git
 ```
+Data will be saved in database1.db when the crawler is initiated.
 
-2. Install NPM packages
-
-```sh
-npm install
-```
 <br>
 
 ### Flask Web Portal
 
 Please review the website deployed on Heroku:<br>
 **https://postmantestinderpreet.herokuapp.com/**<br>
-This flask app displays all the APIs from various categories in a web portal. 
+This flask app displays all the APIs from various categories in a web portal. <br>
+
+
+To run the App on Local Computer
+
+```
+git clone https://github.com/CO18325/postman-assignment.git
+pip install -r requirements.txt
+flask run
+```
+
+
+
+
 
 <br>
 

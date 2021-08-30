@@ -7,7 +7,7 @@ headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-print(response.text)
+#print(response.text)
 
 
 import json
