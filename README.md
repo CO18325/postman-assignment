@@ -81,13 +81,9 @@ This table will consist of all the APIs. The category in this the id from the ca
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+Follow the following steps to run the crawler. And visit the web portal link to view the flask app 
 ### Crawled Program
 
-
-### Flask Web Portal
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
 
@@ -96,6 +92,7 @@ npm install npm@latest -g
 ```
 
 ### Installation
+
 
 1. Clone the repo
 
@@ -108,6 +105,14 @@ git clone https://github.com/github_username/repo.git
 ```sh
 npm install
 ```
+### Flask Web Portal
+
+Please review the website deployed on Heroku:<br>
+**https://postmantestinderpreet.herokuapp.com/**<br>
+This flask app displays all the APIs from various categories in a web portal. 
+
+
+
 
 <!-- USAGE EXAMPLES -->
 
